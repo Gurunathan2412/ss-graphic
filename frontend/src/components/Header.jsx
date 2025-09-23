@@ -44,7 +44,7 @@ export default function Header() {
                 {link.text}
               </a>
             ))}
-            <a href="#contact" 
+            <a href="#services" 
                className="px-6 py-2.5 bg-gradient-to-r from-indigo-600 to-blue-500 text-white rounded-lg 
                           shadow-md hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-200">
               Book Now

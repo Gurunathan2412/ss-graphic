@@ -41,11 +41,7 @@ export default function Hero() {
                          font-semibold shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all duration-200">
               Explore Services
             </a>
-            <a href="#contact" 
-               className="px-8 py-4 bg-white/10 backdrop-blur-md text-white border border-white/30 rounded-lg 
-                         font-semibold hover:bg-white/20 transition-all duration-200">
-              Get Started
-            </a>
+           
           </div>
 
           {/* Features */}
