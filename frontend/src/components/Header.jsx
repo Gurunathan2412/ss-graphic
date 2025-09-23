@@ -38,18 +38,18 @@ export default function Header() {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
             {navLinks.map(link => (
-              <a key={link.href} 
-                 href={link.href} 
-                 className="text-gray-600 hover:text-indigo-600 transition-colors duration-200">
+              <a key={link.href}
+                 href={link.href}
+                 className={`transition-colors duration-200 ${scrolled ? 'text-gray-600 hover:text-indigo-600' : 'text-white hover:text-indigo-200'}`}>
                 {link.text}
               </a>
             ))}
-            
+
           </nav>
 
           {/* Mobile Menu Button */}
           <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                  className="md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors">
+                  className={`md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors ${scrolled ? 'text-gray-600' : 'text-white'}`}>
             {mobileMenuOpen ? <FiX size={24} /> : <FiMenu size={24} />}
           </button>
         </div>
@@ -63,7 +63,7 @@ export default function Header() {
               <a key={link.href} 
                  href={link.href}
                  onClick={() => setMobileMenuOpen(false)}
-                 className="text-gray-600 hover:text-indigo-600 transition-colors py-2">
+                 className={`transition-colors duration-200 py-2 ${scrolled || mobileMenuOpen ? 'text-gray-600 hover:text-indigo-600' : 'text-white hover:text-indigo-200'}`}>
                 {link.text}
               </a>
             ))}
