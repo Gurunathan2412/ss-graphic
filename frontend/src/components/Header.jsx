@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react'
 import { FiMenu, FiX } from 'react-icons/fi'
 
@@ -15,7 +14,8 @@ export default function Header() {
   const navLinks = [
     { href: '#services', text: 'Services' },
     { href: '#testimonials', text: 'Testimonials' },
-    { href: '#faq', text: 'FAQ' }
+    { href: '#faq', text: 'FAQ' },
+    { href: '/admin', text: 'Admin' } // Added Admin link
   ]
 
   return (
