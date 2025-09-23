@@ -67,12 +67,7 @@ export default function Header() {
                 {link.text}
               </a>
             ))}
-            <a href="#contact"
-               onClick={() => setMobileMenuOpen(false)}
-               className="bg-gradient-to-r from-indigo-600 to-blue-500 text-white rounded-lg py-3 px-4 
-                          text-center shadow-md hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-200">
-              Book Now
-            </a>
+            
           </nav>
         </div>
       </div>
