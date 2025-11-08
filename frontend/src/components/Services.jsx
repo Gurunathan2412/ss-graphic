@@ -31,7 +31,27 @@ const SERVICES = [
     image: 'https://images.unsplash.com/photo-1591012911203-3b9a8a9d8a8b?q=80&w=800&auto=format&fit=crop',
     icon: FiFlag,
     features: ['Weather-resistant', 'Multiple sizes', 'Grommets included']
-  }
+  },
+  { 
+    id: 'bc', 
+    title: 'Business Cards', 
+    desc: 'Premium matte or gloss business cards with professional finishes.',
+    price: '₹299 starting', 
+    image: 'https://images.unsplash.com/photo-1596484552252-0378607c2d3b?q=80&w=800&auto=format&fit=crop',
+    icon: FiPrinter,
+    popular: true,
+    features: ['Premium card stock', 'Full color printing', 'Quick turnaround']
+  },
+  { 
+    id: 'fl', 
+    title: 'Flyers', 
+    desc: 'Double-sided full color flyers perfect for promotions.',
+    price: '₹499 starting', 
+    image: 'https://images.unsplash.com/photo-1519744792095-2f2205e87b6f?q=80&w=800&auto=format&fit=crop',
+    icon: FiImage,
+    features: ['High-quality paper', 'Double-sided printing', 'Bulk discounts']
+  },
+  
 ]
 export default function Services(){
   const [open,setOpen] = useState(false)
