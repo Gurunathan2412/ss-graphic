@@ -15,7 +15,7 @@ export default function Hero() {
       <div className="absolute inset-0 -z-10">
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-black/50" />
         <img 
-          src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1600&auto=format&fit=crop" 
+          src="https://res.cloudinary.com/dh2mrevv0/image/upload/v1758641607/modern-printing-press-produces-multi-colored-printouts-accurately-generated-by-ai_zl8pp1.jpg" 
           alt="Printing Press"
           className="w-full h-full object-cover"
         />
